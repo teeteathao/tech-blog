@@ -10,21 +10,13 @@ A CMS-style blog site where developers can publish their blog posts and comment 
 
 ```md
 AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
+You will view a CMS-style blog site
+You will be able to publish articles, blog posts, and your thoughts and opinions
 ```
 
-## Visual
-
-The following animation demonstrates the application functionality:
-
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
-
-## Getting Started
-
-Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views, use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
-
-You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
-
-
+## Use
+- [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views
+- [MySQL2](https://www.npmjs.com/package/mysql2) 
+- [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models 
+- Express.js API for your Controllers
 
